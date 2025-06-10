@@ -58,7 +58,7 @@ Create a users table using the schema from your DAO class or sample SQL script.
 Configure DB Credentials**
 
 
-
+-----
 
 ## 💾 Database Schema
 
@@ -74,18 +74,21 @@ CREATE TABLE users (
   exchange_method VARCHAR(100)
 );
 
-**Edit DBConnection.java with your MySQL username and password:**
+------
 
-{private static final String URL = "jdbc:mysql://localhost:3306/skillswapdb";
+**Edit DBConnection.java with your MySQL username and password:-**
+
+private static final String URL = "jdbc:mysql://localhost:3306/skillswapdb";
 private static final String USER = "your_username";
-private static final String PASSWORD = "your_password";}
+private static final String PASSWORD = "your_password";
+
+-----
 
 UI Design:-
 
 SkillSwap’s interface uses Java Swing components with responsive layouts. Background images and clear alignment enhance the aesthetics. Components reposition based on window resizing for better usability.
 
-
-
+-------
 
 How to Run:-
 1. Clone the repository:- git clone https://github.com/KOTOxSHISUI/SkillSwap-Barter-System.git
@@ -99,6 +102,7 @@ How to Run:-
 
 5. Run the project from LoginForm.java or UserRegistrationForm.java.
 
+------
 
 LICENSE:-
 This project is for academic use and is not licensed for commercial distribution.
