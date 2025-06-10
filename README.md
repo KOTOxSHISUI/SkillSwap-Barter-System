@@ -16,7 +16,26 @@ skillswap/
 │ │ └── images/ # Background images
 ├── .gitignore
 ├── skillswap.iml
+└── README.md
 
+---
+
+## ✅ Features
+
+- **User Registration** with fields: name, email, password, skills, availability, and preferred exchange method.
+- **Login System** with authentication check from MySQL database.
+- **Dashboard** UI loaded post login with user info.
+- **Form validation** for empty fields and formatting.
+- **Database Integration** using JDBC with `skillswapdb`.
+  
+---
+
+
+## 🛡️ Validation & Error Handling
+
+- Validates empty fields before submitting.
+- Displays user-friendly error messages on incorrect login or DB failures.
+- Ensures database constraints (e.g. no duplicate emails) using SQL logic.
 
 ---
 
@@ -45,16 +64,6 @@ CREATE TABLE users (
   exchange_method VARCHAR(100)
 );
 
- Features
-1. User registration with skill, availability, and exchange details
-
-2. User authentication via email and password
-
-3.Dashboard displaying user profile
-
-4.Java Swing GUI with background image
-
-5.JDBC-based database operations
 
 
 UI Design:-
