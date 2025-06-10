@@ -76,9 +76,9 @@ CREATE TABLE users (
 
 **Edit DBConnection.java with your MySQL username and password:**
 
-private static final String URL = "jdbc:mysql://localhost:3306/skillswapdb";
+{private static final String URL = "jdbc:mysql://localhost:3306/skillswapdb";
 private static final String USER = "your_username";
-private static final String PASSWORD = "your_password";
+private static final String PASSWORD = "your_password";}
 
 UI Design:-
 
