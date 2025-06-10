@@ -49,6 +49,19 @@ skillswap/
 - **Git & GitHub** - Version control and collaboration
 
 ---
+**Set up MySQL Database
+
+Create a database named skillswapdb
+
+Create a users table using the schema from your DAO class or sample SQL script.
+
+Configure DB Credentials**
+
+**Edit DBConnection.java with your MySQL username and password:**
+private static final String URL = "jdbc:mysql://localhost:3306/skillswapdb";
+private static final String USER = "your_username";
+private static final String PASSWORD = "your_password";
+
 
 ## 💾 Database Schema
 
