@@ -84,7 +84,7 @@ UI Design:-
 SkillSwap’s interface uses Java Swing components with responsive layouts. Background images and clear alignment enhance the aesthetics. Components reposition based on window resizing for better usability.
 
 **Screenshot:-**
-![login page](https://github.com/KOTOxSHISUI/SkillSwap-Barter-System/blob/3321894ac9c3f369f1ead8a01d99b6a87f61e78e/login_page.png?raw=true)
+![login_page.png](https://github.com/KOTOxSHISUI/SkillSwap-Barter-System/blob/3321894ac9c3f369f1ead8a01d99b6a87f61e78e/login_page.png?raw=true)
 
 
 How to Run:-
